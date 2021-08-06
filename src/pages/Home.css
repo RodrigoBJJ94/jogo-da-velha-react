@@ -1,11 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+
 .board-container {
-  max-width: 640px;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
 .board-container h1 {
   text-align: center;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .board {
@@ -19,9 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15vw;
+  font-size: 10rem;
   background: none;
-  border: 1px solid lightgrey;
+  border: 0.1rem solid lightgrey;
   cursor: pointer;
 }
 

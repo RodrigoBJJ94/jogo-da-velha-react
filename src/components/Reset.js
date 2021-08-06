@@ -14,7 +14,7 @@ export default function Reset() {
   return (
     <p className="reset">
       <button type="button" onClick={handleClick}>
-        Reset
+        Resetar
       </button>
     </p>
   );
