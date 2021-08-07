@@ -27,7 +27,7 @@ html {
   align-items: center;
   font-size: 10rem;
   background: none;
-  border: 0.01rem solid rgb(124, 53, 218);
+  border: 0.01rem solid black;
   cursor: pointer;
 }
 
