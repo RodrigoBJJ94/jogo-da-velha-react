@@ -63,28 +63,14 @@ p {
   color: rgb(124, 53, 218);
 }
 
-footer {
-  text-align: center;
-  font-size: 2rem;
-  padding-top: 31rem;
-}
-
 @media (max-width: 800px) {
   .board-container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-
-  footer {
-    padding-top: 13rem;
-  }
 }
 
 @media (max-width:350px) {
-  footer {
-    padding-top: 8.5rem;
-  }
-
   .winner {
     font-size: 2.5rem;
   }
