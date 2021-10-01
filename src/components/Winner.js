@@ -5,5 +5,5 @@ export default function Winner() {
   const { whoIsWinner } = useContext(GameContext);
 
   if (!whoIsWinner) return <></>;
-  return <p className="winner">Jogador {whoIsWinner} ganhou!</p>;
+  return <p className="winner">Player {whoIsWinner} win!</p>;
 }

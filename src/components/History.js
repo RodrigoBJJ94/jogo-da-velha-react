@@ -20,7 +20,7 @@ export default function Board() {
       {history.map((data, index) => (
         <div key={uuid()} className="history">
           <button type="button" onClick={() => handleClick(index)}>
-            Voltar para a jogada {index}
+            Go back to move {index}
           </button>
         </div>
       ))}
